@@ -1,0 +1,58 @@
+.layoutWrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 90px rgb(190 100 255 / 55%);
+}
+
+.imageWrapper {
+  display: block;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.placeholderImg {
+  border-radius: 5px;
+  height: 100%;
+}
+
+.detailsWrapper {
+  background-color: white;
+  height: 30%;
+  text-align: center;
+  vertical-align: middle;
+  /* line-height: 140px; */
+  font-size: 20px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 0 30px;
+}
+
+.tag {
+  padding: 5px;
+  border: 1px solid purple;
+  margin: 0 5px;
+  border-radius: 20px;
+}

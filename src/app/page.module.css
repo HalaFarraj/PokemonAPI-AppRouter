@@ -1,0 +1,19 @@
+.pageWrapper {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px;
+}
+
+.indicatorsWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
